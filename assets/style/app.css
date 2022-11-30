@@ -1,117 +1,117 @@
 .wrap{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: auto;
 }
 .column-left{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .column1{
-  
-    height: 616px;
-    width: 273px;
-    margin-right: 30px;
-   
+
+  height: 616px;
+  width: 273px;
+  margin-right: 30px;
+ 
 }
 .column2{  
-    height: 616px;
-    width: 273px;
-   
+  height: 616px;
+  width: 273px;
+ 
 }
 .row1{
-    width: 273px;
-    height: 327.8px;
+  width: 273px;
+  height: 327.8px;
 }
 .row2{
-    width: 273px;
-    height: 327.8px;
+  width: 273px;
+  height: 327.8px;
 }
 .column-right{
-    display: flex;
+  display: flex;
 }
 .Line-4 {
-    width: 186px;
-    height: 2px;
-    background-color: #e03116;
-  }
+  width: 186px;
+  height: 2px;
+  background-color: #e03116;
+}
 .The-Encompass{
-    width: 428px;
-    height: 214px;
-    font-size: 36px;
-    text-align: left;
-    color: #1f2c40;
-    font-size: 36px;
-    font-weight: bold;
-    
+  width: 428px;
+  height: 214px;
+  font-size: 36px;
+  text-align: left;
+  color: #1f2c40;
+  font-size: 36px;
+  font-weight: bold;
+  
 }
 .Drive-Business {
-    font-weight: bold;
-    width: 273px;
-    height: 33px;
-    margin: 0 0 7px;
-    font-size: 24px;
-    text-align: left;
-    color: #1f2c40;
-  }
- .column1 .row1 p {
-    width: 273px;
-    height: 294.8px;
-    margin: 7px 0 0;
-    text-align: left;
-    font-size: 18px;
-    
-  }
-  .Improve-Operational{
-   
-    width: 273px;
-    height: 248px;
-    margin: 7px 0 0;
-    text-align: left;
-    font-size: 24px;
-    color: #1f2c40;
-    font-weight: bold;
-      
-  }
-  .column1 .row2 p{
-    width: 273px;
-    height: 294.8px;
-    margin: 7px 0 0;
-    text-align: left;
-    font-size: 18px;
-  }
-  .Leverage-Real-Time{
-    width: 273px;
-    height: 89px;
-    margin: 0 0 7px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    letter-spacing: -0.19px;
+  font-weight: bold;
+  width: 273px;
+  height: 33px;
+  margin: 0 0 7px;
+  font-size: 24px;
   text-align: left;
-    color: #1f2c40;
-  }
-  .column2 .row1 p {
-    width: 273px;
-    height: 294.8px;
-    margin: 7px 0 0;
-    font-size: 18px;
-    text-align: left;
-  }
-  .Enhance-Team-Dynamics{
-    width: 273px;
-    height: 248px;
-    margin: 7px 0 0;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    color: #401f2a;
-  }
-  .column2 .row2 p{
-    width: 273px;
-    height: 294.8px;
-    font-size: 18px;
-    margin: 7px 0 0;
-    text-align: left;
-  }
+  color: #1f2c40;
+}
+.column1 .row1 p {
+  width: 273px;
+  height: 294.8px;
+  margin: 7px 0 0;
+  text-align: left;
+  font-size: 18px;
+  
+}
+.Improve-Operational{
+ 
+  width: 273px;
+  height: 248px;
+  margin: 7px 0 0;
+  text-align: left;
+  font-size: 24px;
+  color: #1f2c40;
+  font-weight: bold;
+    
+}
+.column1 .row2 p{
+  width: 273px;
+  height: 294.8px;
+  margin: 7px 0 0;
+  text-align: left;
+  font-size: 18px;
+}
+.Leverage-Real-Time{
+  width: 273px;
+  height: 89px;
+  margin: 0 0 7px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: -0.19px;
+text-align: left;
+  color: #1f2c40;
+}
+.column2 .row1 p {
+  width: 273px;
+  height: 294.8px;
+  margin: 7px 0 0;
+  font-size: 18px;
+  text-align: left;
+}
+.Enhance-Team-Dynamics{
+  width: 273px;
+  height: 248px;
+  margin: 7px 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #401f2a;
+}
+.column2 .row2 p{
+  width: 273px;
+  height: 294.8px;
+  font-size: 18px;
+  margin: 7px 0 0;
+  text-align: left;
+}
