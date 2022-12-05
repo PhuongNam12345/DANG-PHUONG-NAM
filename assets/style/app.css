@@ -1,117 +1,113 @@
-.wrap{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: auto;
-}
-.column-left{
-  display: flex;
-  flex-direction: column;
-}
-.column1{
 
-  height: 616px;
-  width: 273px;
-  margin-right: 30px;
- 
+body{
+  margin: 7px 0 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.14px;
+  text-align: left;
+  color: #666666;
 }
-.column2{  
-  height: 616px;
-  width: 273px;
- 
-}
-.row1{
-  width: 273px;
-  height: 327.8px;
-}
-.row2{
-  width: 273px;
-  height: 327.8px;
-}
-.column-right{
+
+.wrap{
+  font-family: Poppins;
+  margin: 40px auto;
+  width: 80%;
   display: flex;
 }
+
+/* title */
+.title{
+  width: 40%;
+}
+
 .Line-4 {
   width: 186px;
+  border-top: 1px solid #e03116;
   height: 2px;
-  background-color: #e03116;
 }
-.The-Encompass{
-  width: 428px;
-  height: 214px;
+
+.content-left{
+  max-width: 432px;
+}
+
+h1 {
   font-size: 36px;
-  text-align: left;
-  color: #1f2c40;
-  font-size: 36px;
-  font-weight: bold;
-  
+  line-height: 1.33;
 }
-.Drive-Business {
-  font-weight: bold;
-  width: 273px;
-  height: 33px;
-  margin: 0 0 7px;
+.content-right{
+  width: 60%;
+  display: flex;
+}
+
+.row{
+  max-width: 350px;
+  height: 328px;
+  margin-bottom: 24px;
+}
+
+h3{
   font-size: 24px;
-  text-align: left;
-  color: #1f2c40;
+  margin-bottom: 12px;
 }
-.column1 .row1 p {
-  width: 273px;
-  height: 294.8px;
-  margin: 7px 0 0;
-  text-align: left;
-  font-size: 18px;
-  
+
+
+/* screen 1024px*/
+@media (max-width: 1024px){
+  .wrap{
+      width: 80%;
+      display: block;
+      flex-direction: column;
+  }
+
+  .content-left{
+      max-width: 100%;
+  }
+
+  .content-right{
+      width: 100%;
+  }
+
+  .column1{
+      margin-right: 120px;
+  }
+
+  .row{
+      margin: 20px 0;
+  }
 }
-.Improve-Operational{
- 
-  width: 273px;
-  height: 248px;
-  margin: 7px 0 0;
-  text-align: left;
-  font-size: 24px;
-  color: #1f2c40;
-  font-weight: bold;
-    
-}
-.column1 .row2 p{
-  width: 273px;
-  height: 294.8px;
-  margin: 7px 0 0;
-  text-align: left;
-  font-size: 18px;
-}
-.Leverage-Real-Time{
-  width: 273px;
-  height: 89px;
-  margin: 0 0 7px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  letter-spacing: -0.19px;
-text-align: left;
-  color: #1f2c40;
-}
-.column2 .row1 p {
-  width: 273px;
-  height: 294.8px;
-  margin: 7px 0 0;
-  font-size: 18px;
-  text-align: left;
-}
-.Enhance-Team-Dynamics{
-  width: 273px;
-  height: 248px;
-  margin: 7px 0 0;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  color: #401f2a;
-}
-.column2 .row2 p{
-  width: 273px;
-  height: 294.8px;
-  font-size: 18px;
-  margin: 7px 0 0;
-  text-align: left;
+
+/* screen 768*/
+@media (max-width: 768px){
+  .wrap{
+      width: 70%;
+      display: block;
+      flex-direction: column;
+  }
+
+  .content-left{
+      max-width: 100%;
+      padding-bottom: 16px;
+  }
+
+  .content-right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .column1{
+      margin: 0;
+      max-width: unset;
+  }
+
+  .row{
+      max-width: unset;
+      margin: 0;
+      height: fit-content;
+  }
 }
